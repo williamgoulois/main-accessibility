@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.skipLink {
+  @apply fixed top-0 inset-x-0 text-center text-white bg-gray-800 -translate-y-full focus:translate-y-0 duration-150 ease-in-out;
+}
