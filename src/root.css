@@ -10,3 +10,15 @@ a {
 .skipLink {
   @apply fixed top-0 inset-x-0 text-center text-white bg-gray-800 -translate-y-full focus:translate-y-0 duration-150 ease-in-out;
 }
+
+h2 {
+  @apply text-gray-200;
+}
+
+@media (prefers-contrast: more) {
+  h2 {
+  @apply text-gray-700;
+
+  }
+}
+

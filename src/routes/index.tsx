@@ -43,6 +43,7 @@ export default function Home() {
             Hello from Solidjs!
           </h1>
           <SolidLogo />
+          <h2 class="py-4 text-2xl">Bad contrast text</h2>
           <article>
             <p class="mb-4">
               Lorem ipsum dolor sit amet, officia excepteur ex fugiat
