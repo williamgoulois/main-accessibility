@@ -1,6 +1,7 @@
 import solidJsLogo from "./logo.svg";
-import "./SolidLogo.css";
+import styles from "./SolidLogo.module.css";
+import cx from 'classnames'
 
 export const SolidLogo = () => {
-  return <img src={solidJsLogo} class="h-16 w-16 rotate" alt="Solidjs logo" />;
+  return <img src={solidJsLogo} class={cx("h-16 w-16", styles.rotate)} alt="Solidjs logo" />;
 };
